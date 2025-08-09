@@ -1,5 +1,5 @@
 import { Container } from '../Container/Container.tsx';
-import BG_IMG from '../../images/photos/bg.jpg';
+import BG_IMG from '../../images/photos/bg.webp';
 import Button from '../Button/Button.tsx';
 import './MainBlock.scss';
 
