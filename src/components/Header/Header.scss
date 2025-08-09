@@ -1,0 +1,22 @@
+header {
+  background: #fff;
+  width: 100%;
+  padding: 13px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+
+  &__logo{
+    width: 104px;
+  }
+
+  &__menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,27 @@
+@use '../../styles/variables' as *;
+@use '../../styles/mixins' as *;
+
+.container{
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container{
+    max-width: 704px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container{
+    max-width: 904px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container{
+    max-width: 1170px;
+  }
+}

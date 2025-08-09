@@ -1,0 +1,12 @@
+@use './_variables' as *;
+@use './_mixins' as *;
+
+$font-main: 'Nunito', sans-serif;
+
+h1{
+  @include title;
+}
+
+h2{
+  @include title;
+}

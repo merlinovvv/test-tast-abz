@@ -1,0 +1,27 @@
+@use '../../styles/variables' as *;
+
+.btn{
+  padding: 4px 18px;
+  min-width: 100px;
+  text-align: center;
+  background: $primary;
+  font-size: $font-size;
+  line-height: $line-height;
+  border-radius: 80px;
+  white-space: nowrap;
+  display: inline-block;
+
+  &.btn-primary{
+    background: $primary;
+  }
+
+  &:hover{
+    background: $primary-hover;
+  }
+
+  &:disabled{
+    background: $disabled;
+    color: #fff;
+    cursor: not-allowed;
+  }
+}

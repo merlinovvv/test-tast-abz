@@ -1,0 +1,22 @@
+@use '../../styles/variables' as *;
+
+.loading{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  &__preloader {
+    display: block;
+    width: 48px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: l2 1s infinite linear;
+    @keyframes l2 {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+  }
+}
